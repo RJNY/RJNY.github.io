@@ -25,8 +25,14 @@
         <img src="{{ site.baseurl }}/assets/img/avatar.jpg" alt="Picture" title="That's me, {{ site.author }}.">
       </figure>
       <div class="bio">
-          <h1>Hi, I'm {{ site.author }}.</h1>
-          <p>{{ site.author-bio }}</p>
+        <h1>Hi, I'm {{ site.author }}.</h1>
+        <p>{{ site.author-bio }}</p>
+        <nav>
+          <h6>Portfolio</h6>
+          <ul>
+            <li><a href="{{ site.baseurl}}/projects">Projects</a></li>
+          </ul>
+        </nav>
       </div>
       <nav>
         <h6>Follow me on</h6>
@@ -43,6 +49,13 @@
           {% if site.gplus %}
           <li><a target="_blank" href="https://plus.google.com/+{{ site.gplus }}">Google+</a></li>
           {% endif %}
+        </ul>
+      </nav>
+      <nav>
+        <h6>Contact</h6>
+        <ul>
+          <li><a href="mailto:rjny86@gmail.com?subject=Ahoy!
+&body=Hello Richard,">Email Me</a></li>
         </ul>
       </nav>
     </div>
