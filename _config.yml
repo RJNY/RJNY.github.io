@@ -1,0 +1,42 @@
+# Title of your blog; shows in the header
+name: "Richard Macias"
+
+# Description of your content (will only be used on Google Search)
+description: "create something(epic)"
+
+# Your name. Will show in your footer + sidebar
+author: "Richard Macias"
+
+url: "http://rjny.github.io"
+baseurl: "http://rjny.github.io"
+# baseurl: ""
+
+# A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
+author-bio: "Software Developer, Teacher, Gamer, Musician, technology enthusiast."
+
+# Social Accounts (mine, as placeholders)
+
+twitter: rjny86
+github: rjny
+linkedin: rjny86
+# gplus: richardmacias86
+
+# Google Analytics (you may want to changes these with yours or even delete :)
+
+ga_domain: rjny.github.io
+# ga_tracking_id: UA-47727049-1
+
+# Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
+
+markdown: kramdown
+permalink: pretty
+highlighter: pygments
+
+paginate: 10
+paginate_path: "/page/:num"
+
+# SCSS
+
+sass:
+  sass_dir: _scss
+  style: :compressed

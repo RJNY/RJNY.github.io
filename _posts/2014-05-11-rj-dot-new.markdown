@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Rj.New"
+comments: true
+date: 2014-05-11 01:02:55 -0400
+---
+
+I've finally come around to creating a blog. It's 3AM so it's gonna be a short first post. My name is Richard Macias. I have been studying programming over the last 5 months and loving every moment.
+My short term goal for this blog is to record my time here at Dev Bootcamp and share it with everyone. Then; I'll begin a new chapter in my life. Enjoy the show!
+Honerable mention to fellow DBC comrade [Jared](http://jaredrader.com/) for helping me get this blog off the ground.
