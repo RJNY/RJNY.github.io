@@ -8,8 +8,8 @@ description: "create something(epic)"
 author: "Richard Macias"
 
 url: "http://rjny.github.io"
-baseurl: "http://rjny.github.io"
-# baseurl: ""
+# baseurl: "http://rjny.github.io"
+baseurl: ""
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
 author-bio: "Software Developer, Teacher, Gamer, Musician, technology enthusiast."
