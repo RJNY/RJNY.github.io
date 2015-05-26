@@ -7,8 +7,8 @@ description: "create something(epic)"
 # Your name. Will show in your footer + sidebar
 author: "Richard Macias"
 
-url: "http://rjny.github.io"
-baseurl: "http://rjny.github.io"
+url: "http://richardmacias.me"
+baseurl: "http://richardmacias.me"
 # baseurl: ""
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
@@ -23,7 +23,7 @@ linkedin: rjny86
 
 # Google Analytics (you may want to changes these with yours or even delete :)
 
-ga_domain: rjny.github.io
+ga_domain: richardmacias.me
 # ga_tracking_id: UA-47727049-1
 
 # Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
