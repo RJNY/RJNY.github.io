@@ -100,6 +100,6 @@ That's all I got for now. I wanted to include some JavaScript examples but I thi
 
 ##References  
 
-You can learn more about Big-O with the [Big-O cheat sheet](http://bigocheatsheet.com/).  
-[Cracking the Coding Interview](http://amzn.com/098478280X) is THE book to buy for interviews. Seriously a must-have.
-I'm also a big fan of [interview cake](https://www.interviewcake.com/).
+*  You can learn more about Big-O with the [Big-O cheat sheet](http://bigocheatsheet.com/).  
+*  [Cracking the Coding Interview](http://amzn.com/098478280X) is THE book to buy for interviews. Seriously a must-have.  
+*  I'm also a big fan of [interview cake](https://www.interviewcake.com/).
