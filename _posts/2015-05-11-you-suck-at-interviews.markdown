@@ -5,7 +5,7 @@ comments: true
 date: 2015-05-11 23:35:21 -0400
 ---
 
-I'm just gonna say it...Interviewing for a dev position sucks! It is the most humbling, brain racking experience I've ever been through. Alas, it is a natural process for getting hired. Lately, I've been on a LOT of interviews and got a LOT of rejections. Rejection sucks sure, but I always ask for feedback. Here is what I learned:
+I'm just gonna say it... Interviewing for a dev position sucks! It is the most humbling, brain racking experience I've ever been through. Alas, it is a natural process for getting hired. Lately, I've been on a LOT of interviews and got a LOT of rejections. Rejection sucks sure, but I always ask for feedback. Here is what I learned:
 
 ##KNOW THY COMPLEXITIES
 Every once in a while, you go on an interview for a company that you L-O-V-E. Butterflies in your stomach, right culture, great atmosphere, refreshments. You make it to the last interview and get all the answers right. Your interviewer says "OK, this works! ...**can we do better?**" and you're thinking "wtf do you mean better? Does he mean cleaner? Is it not readable?". Interview ends, you go home, next week you get an email saying you've been rejected. What happened?
@@ -101,4 +101,5 @@ That's all I got for now. I wanted to include some JavaScript examples but I thi
 ##References  
 
 You can learn more about Big-O with the [Big-O cheat sheet](http://bigocheatsheet.com/).  
+[Cracking the Coding Interview](http://amzn.com/098478280X) is THE book to buy for interviews. Seriously a must-have.
 I'm also a big fan of [interview cake](https://www.interviewcake.com/).
