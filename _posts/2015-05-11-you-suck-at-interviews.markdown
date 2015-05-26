@@ -2,7 +2,7 @@
 layout: post
 title: "[Interviews suck] and tips for crushing it."
 comments: true
-date: 2015-05-24 23:35:21 -0400
+date: 2015-05-11 23:35:21 -0400
 ---
 
 I'm just gonna say it...Interviewing for a dev position sucks! It is the most humbling, brain racking experience I've ever been through. Alas, it is a natural process for getting hired. Lately, I've been on a LOT of interviews and got a LOT of rejections. Rejection sucks sure, but I always ask for feedback. Here is what I learned:
