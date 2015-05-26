@@ -77,7 +77,9 @@ def value_exists? argument
     return true if value == argument
 
     current_value = value
-    while value != nil
+    while value != nil 
+        return true if current_value == agument
+
         if agument < value
             current_value = right.value
         elseif agument 
