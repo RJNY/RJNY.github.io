@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Interviews suck] and tips for crushing it."
+title: "[Interviews suck] Tips for crushing it."
 comments: true
 date: 2015-05-11 23:35:21 -0400
 ---
