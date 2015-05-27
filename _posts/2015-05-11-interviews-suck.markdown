@@ -60,13 +60,13 @@ We're iterating through two arrays: the ```family_tree``` array and every array 
 
 ##Get greedy
 
-Remember that thing I was talking about? Big-O? Yeah, my complexities sucked. This is why it's good to use better data structures. A Binary tree is a good example
+Remember that thing I was talking about? Big-O? Yeah, my complexities sucked. This is why it's good to use better data structures. A binary search tree is a good example
 
 ![image]({{site.url}}/assets/img/bst.png)
 
-I won't go in depth with the binary tree today. I think I can make a pretty lengthy blog post about how to structure a binary search tree, so let's just talk about its complexity for a moment.
+I won't go in depth with the binary search tree today. I think I can make a pretty lengthy blog post about how to structure a binary search tree, so let's just talk about its complexity for a moment.
 
-The wonderful thing about the binary search tree is the Big-O complexity. Given the above example. If I wanted to find 65, the search would begin at the root, which in this case is 60. 65 is greater than 60, so it would travel right. 65 is less than 74 so it would go left. 65 is == 65, it's a match! return true.
+The wonderful thing about the binary search tree is the Big-O complexity. Given the above example. If I wanted to find 65, the search would begin at the root, which in this case is 60. 65 is greater than 60, so it would travel right. 65 is less than 74 so it would go left. 65 is == 65, it's a match! It  will *greedily* return true.
 
 In a linear search, worst case wouldbe O(n), we've simplified our search to O(log n). The best way I can describe O(log n), is dividing a problem in half, over and over until you find the value you are looking for. This continuously halves your search complexity as opposed to going through each iteration.
 
@@ -90,7 +90,7 @@ def value_exists? argument
 end
 {% endhighlight %}
 
-So in this example, we're traversing the binary tree until we find a match or bust in the process. This is great because if we had a sorted array, it'd be ```[16,25,41,42,46,53,55,60,62,63,64,65,70,74]```. if We were to run ```value_exists?(74)``` we would get it on the 2nd try, vs the linear search which would literally give us the worst result.  
+So in this example, we're traversing the binary search tree until we find a match or bust in the process. This is great because if we had a sorted array, it'd be ```[16,25,41,42,46,53,55,60,62,63,64,65,70,74]```. if We were to run ```value_exists?(74)``` we would get it on the 2nd try, vs the linear search which would literally give us the worst result.  
 
 ##Crushing it!
 
