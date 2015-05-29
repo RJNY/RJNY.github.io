@@ -17,7 +17,8 @@ My first smartphone was the Android G1 back in 2008. While all of my friends wer
 ##The dev community  
 New phones were coming out but I refused to upgrade. I didn't want to let go of my G1 but the G1 stopped getting Android OS updates. I turned to the forums and learned that a dev group called Cyanogen was rolling out custom updates. I investigated on the forums and learned about the dev community behind it. I was in heaven. I had my G1 for 3 years before I moved to my samsung galaxy 1. I think I tried some other phone for a minute but I ended up hating it.  
 Fast forward to 2015. I figured it's time I traded in my (favorite phone to date, the) Galaxy S4. Since its release, I unlocked the bootloader, rooted and ran custom software on it. Xposed framework was my best friend. My phone was PERFECT!!@ ...but now I wanted the Moto X 2nd gen. It looks perfect, but it was a far cry from what I want.  
-##Moto X 2nd gen (2014)
+
+##Moto X 2nd gen (2014)  
 While I think that the Moto X is everything an Android phone should be, I ended up hating the phone because of the lack of community behind it. There are no custom kernels or roms. Lollipops switch from dalvik to art broke Xposed framework. I wanted to love my phone so much, but I don't.  
 I would experiment with custom roms again, but I have different responsibilites now. I need my phone to work. I can't fiddle around with such a dependancy and my daily phone driver. I need stability; thus, I decided to give my first iPhone a try.  
 
