@@ -5,11 +5,15 @@ comments: true
 date: 2015-03-11 23:35:21 -0400
 ---
 
+####Update
+I'm back on Android. There's simply nothing better than a rooted Android phone. Although I admit, I still miss iMessage on my laptop.
+
 ##Disclaimer
 This is not a review nor a professional android/iOS fan-site. I'm just a regular dude who switched from Android to iOS. With that said...  
 
 ##I love Android.  
 My first smartphone was the Android G1 back in 2008. While all of my friends were purchasing the iPhone, I was rocking my google G1; and damn-it, I was proud!
+
 ##The dev community  
 New phones were coming out but I refused to upgrade. I didn't want to let go of my G1 but the G1 stopped getting Android OS updates. I turned to the forums and learned that a dev group called Cyanogen was rolling out custom updates. I investigated on the forums and learned about the dev community behind it. I was in heaven. I had my G1 for 3 years before I moved to my samsung galaxy 1. I think I tried some other phone for a minute but I ended up hating it.  
 Fast forward to 2015. I figured it's time I traded in my (favorite phone to date, the) Galaxy S4. Since its release, I unlocked the bootloader, rooted and ran custom software on it. Xposed framework was my best friend. My phone was PERFECT!!@ ...but now I wanted the Moto X 2nd gen. It looks perfect, but it was a far cry from what I want.  
@@ -36,4 +40,3 @@ Find friends: my family has iPhone and I can't express how convenient this is fo
 
 ##Conclusion
 All things considered, I enjoy my iPhone 6 and dare I say? I'll probably keep it. I am tempted to wait for the Galaxy S6, but TouchWiz overlay is disgusting. I could root it, but I don't want to tinker with my primary phone anymore. Is it so much to ask for a stock Android experience with Samsung hardware and motorola (lenovo) features? Apparently, it is. Till then, I'll stick with iPhone. I can trust the resell value will always be excellent for apple devices anyway ;-)
-
