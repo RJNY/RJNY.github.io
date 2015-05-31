@@ -16,7 +16,7 @@ So today I decided to learn about bit manipulation. I only learned about them to
 
 As shown above, you can convert an integer to a string of binary using the [Fixnum#to_s](http://ruby-doc.org/core-2.1.0/Fixnum.html#method-i-to_s) method.  
 
-For the sake of convenience, we're gonna make a new method for he Integer class
+For the sake of convenience, we're gonna make a new method for the Integer class
 
 {% highlight ruby %}
 class Integer
@@ -152,6 +152,22 @@ As for negatives
 
 It's a bit confusing to look at for a moment, but if you stop to think about it, it actually makes a lot of sense. 
 
+
+## Left and right shift operators
+
+Left and right shift operators shift integer bits to the left or right by the given number of positions. 
+
+{% highlight ruby %}
+a = 18
+
+(a >> 2).to_s(2)       #=>     "100"
+(a >> 1).to_s(2)       #=>    "1001"
+(a).to_s(2)            #=>   "10010"
+(a << 1).to_s(2)       #=>  "100100"
+(a << 2).to_s(2)       #=> "1001000"
+{% endhighlight %}
+
+Notice what's happening here? By shifting to the right, we shorten the bits. By shifting left, we extend the bits, filling the new bits with ```0```'s.
 
 ##That's it!
 
