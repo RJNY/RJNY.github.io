@@ -5,13 +5,13 @@ comments: true
 date: 2015-06-09 10:02:55 -0400
 ---
 
-My journey to becoming a developer was a long and unsupportive path. I remember thinking about becoming a software developer at 11 years old and boy did my father look upset. The next day, his graphic designer friend came by to talk me out of this struggling market. He wanted me to be a lawyer, a doctor, a real estate agent.
+I get asked often why and how I got into software development, so I decided to write about it. My journey to becoming a developer was a long and unsupportive path. I remember thinking about becoming a software developer at 11 years old and boy did my father look upset. The next day, his graphic designer friend came by to talk me out of this struggling market. He wanted me to be a lawyer, a doctor, a real estate agent.
 
 ##My path down computer hardware
 
 While I admit I was easily swayed from my path, I still had a big love for gaming. I didn't have a lot of money but I knew I could get games on the internet for free. I begged my parents for a computer and I ended up with this terrible e-machine computer, it would have to suffice. For two years I played some low-end games and emulators, but couldn't get it to play some of the high-end games. 
 
-One day I asked santa for a "beast" computer with all the highest specs, best screen, mouse, keyboard, etc. but was quickly turned down by my mother who informed me that santa had a $300 limit. I looked to the internet for cheap alternatives. I found that I could purchase computer parts seperately, so I did. I bought a kick-ass video card and ram upgrade and I was in business! It wasn't the best computer in the world, but it was a good alternative. 
+One day I asked Santa for a "beast" computer with all the highest specs, best screen, mouse, keyboard, etc. but was quickly turned down by my mother who informed me that Santa had a $300 limit. I looked to the internet for cheap alternatives. I found that I could purchase computer parts separately, so I did. I bought a kick-ass video card and ram upgrade and I was in business! It wasn't the best computer in the world, but it was a good alternative. 
 
 My friend came by and was impressed with my computer. He asked me to build him a computer and that was my first break into the freelance market.
 
@@ -29,13 +29,34 @@ Around 24, I was playing Final Fantasy XI on a private server that was hosted by
 
 The day of my friends birthday, I spoke with her brother and asked how I could "get into computers". This was the wrong question to ask, but I didn't know that at the time. He asked what I wanted to do. What do I want to do? "I want to make games!". He told me that there are devs all over the world that started programming when they were 11. He continued that I could start, but I'll never be as good as them and that it was a pointless path to take.
 
-He explained that building a game is like making a building. You have the devs, the graphic designers, the musicians, the story writers, managers, marketers, CEO and so on. When you're making a building, you have electricians, plumbers, painters, sheetrock, insolation, project managers, funders, etc. "Richard, you are the guy in the white hat". This was a defeat in my eyes that it was too late to ever realize my dream. I gave up.
+He explained that building a game is like making a building. You have the devs, the graphic designers, the musicians, the story writers, managers, marketers, CEO and so on. When you're making a building, you have electricians, plumbers, painters, sheet rock, insulation, project managers, funders, etc. "Richard, you are the guy in the white hat". This was a defeat in my eyes that it was too late to ever realize my dream. I gave up.
 
 ##developer Bootcamps
 
-I mentioned before in my blog that I used to tinker with custom roms on android and XDA-developers was my playground. One day while visiting XDA, I came across this article that changed my life titled [Are you too old to become a developer?](http://www.xda-developers.com/too-old-to-become-a-developer-xda-developer-tv/). This title really hit home for me and I was compelled to read it. I learned about hack-reactor, which was admittedly too expensive for me. I learned that the founder had graduated from a bootcamp himself called Dev-Bootcamp (DBC). I made plans to quit my job and move to CA when news came out that DBC was opening in NY, the stars all aligned and I applied for the 2nd cohort in NY.
+I mentioned before in my blog that I used to tinker with custom roms on android and XDA-developers was my playground. One day while visiting XDA, I came across this article that changed my life titled "[Are you too old to become a developer?](http://www.xda-developers.com/too-old-to-become-a-developer-xda-developer-tv/)". This title really hit home for me because of the words of my friends brother, I was compelled to read it. I learned about hack-reactor, which was admittedly too expensive for me. I learned that the founder had graduated from a bootcamp himself called Dev-Bootcamp (DBC). I made plans to quit my job and move to CA when news came out that DBC was opening in NY, the stars all aligned and I applied for the 2nd cohort in NY.
 
-I spoke with a guy named Tanner for my acceptance interview. He was really kind and empathetic. He gave me a puzzle to solve, which I failed to answer in time. I was a little crushed but hid my emotions and graciously thanked him for his time. I e-mailed him the correct answer within the next 20 minutes and left it to fate. The next week I got an acceptance letter and I literally squeeled with joy. I was going to make my dream come true!
+I spoke with a guy named Tanner for my acceptance interview. He was really kind and empathetic. He gave me a puzzle to solve, which I failed to answer in time. I was a little crushed but hid my emotions and graciously thanked him for his time. I e-mailed him the correct answer within the next 20 minutes and left it to fate. The next week I got an acceptance letter and I literally squealed with joy. I was going to make my dream come true!
 
 ##Dev Bootcamp
 
+After the acceptance, I was given a list of tasks to complete before the start date, effectively titled "phase 0". This consisted of code academy courses, reading books, solving algorithms, code challenges, creating a static website and online pairing with other students.
+
+Phase 1 began on my birthday, April 21st. I quit my job a few days prior and began doing what I've been wanting to do. It was incredibly difficult at first. The atmosphere is very fast paced and if you can't wrap your head around a concept, you risk getting left in the dust. I remember staying 12-15 hours a day to make sure I completely understood a concept and didn't fail my assessment and it wasn't just me, many of us did. It was a very intense environment and at times could be very stressful and cause arguments amongst students. During the time that I went to the school, they were very short handed, nowadays they have a coach system and students get plenty of help.
+
+Graduation was a bitter-sweet day for me. I was happy to be finished but sad to leave the school. My final project, [Thoughtly](https://chrome.google.com/webstore/detail/thoughtly/bjimfkgilabecdooefginiejapplfpon) (currently broken), was a chrome extension tied to a rails application that scraped the topic of an article, sent it to the rails app which ran it against multiple API's like YouTube, Ted Talks, Wikipedia, NYTimes and Freebase, gathered the search results and formatted it into one nice little package for users to review later. One of our team mates even made an interactive node graph in raphaelJS
+
+##Post DBC
+
+After DBC, I took a much needed break. Visited some friends and loved ones I haven't seen during my time at the school. A month later I asked to be considered for a position as a mentor at DBC. I was accepted and now I was teaching people to become developers! I was very happy to help others realize their dreams while doing what I loved to do. It was a dream come true.
+
+5 months into the coaching position, I found that I was jealous that the students were making cool stuff and I wasn't. It was time to leave and start developing.
+
+##Present day
+
+Currently I'm working freelance for friends and recommendations from friends. I am currently building a Starbucks-like platform for a friend called [The Daily Grind](https://daily-grind-demo.herokuapp.com/) and looking for full time work somewhere. 
+
+In my free time, I'm solving interview-cake algorithms, going over some computer science concepts and learning as many new things as I can. 
+
+##Reflection
+
+I knew I wanted to write this post for a long time and I'm glad I finally got around to it. It made me remember that my muse for programming was game development. My childhood days playing MegaMan 6 and thinking I wanted to work for Capcom or playing FFXI and wanting to be a dev at SquareSoft. Even more recently I met someone with a similar dream that reminded me that gaming was the whole reason I wanted to get into programming in the first place. Now I realize I want to make my own games and that it's well within my power to do so. So from here forward, every action I take will be to that end goal.
