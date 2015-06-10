@@ -5,7 +5,7 @@ comments: true
 date: 2014-08-05 12:56:21 -0400
 ---
 
-January of this year, I decided to enroll into [Dev Bootcamp](www.devbootcamp.com) (DBC). I completed my 9 weeks of prep and 9 weeks of the core curriculum. I am now a DBC graduate and ready to begin my lifelong dream career as a full stack web developer. While it's true that I walked out of DBC learning the basics of web development, I gained much more than I ever expected.   
+January of this year, I decided to enroll into [Dev Bootcamp](http://devbootcamp.com) (DBC). I completed my 9 weeks of prep and 9 weeks of the core curriculum. I am now a DBC graduate and ready to begin my lifelong dream career as a full stack web developer. While it's true that I walked out of DBC learning the basics of web development, I gained much more than I ever expected.   
 
 > ###Whats the difference between a kitchen and a restaurant?  
 
