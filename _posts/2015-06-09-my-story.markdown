@@ -43,7 +43,7 @@ After the acceptance, I was given a list of tasks to complete before the start d
 
 Phase 1 began on my birthday, April 21st. I quit my job a few days prior and began doing what I've been wanting to do. It was incredibly difficult at first. The atmosphere is very fast paced and if you can't wrap your head around a concept, you risk getting left in the dust. I remember staying 12-15 hours a day to make sure I completely understood a concept and didn't fail my assessment and it wasn't just me, many of us did. It was a very intense environment and at times could be very stressful and cause arguments amongst students. During the time that I went to the school, they were very short handed, nowadays they have a coach system and students get plenty of help.
 
-Graduation was a bitter-sweet day for me. I was happy to be finished but sad to leave the school. My final project, [Thoughtly](https://chrome.google.com/webstore/detail/thoughtly/bjimfkgilabecdooefginiejapplfpon) (currently broken), was a chrome extension tied to a rails application that scraped the topic of an article, sent it to the rails app which ran it against multiple API's like YouTube, Ted Talks, Wikipedia, NYTimes and Freebase, gathered the search results and formatted it into one nice little package for users to review later. One of our team mates even made an interactive node graph in raphaelJS
+Graduation was a bitter-sweet day for me. I was happy to be finished but sad to leave the school. [My final project](https://chrome.google.com/webstore/detail/thoughtly/bjimfkgilabecdooefginiejapplfpon) (currently broken), was a chrome extension tied to a rails application that scraped the topic of an article, sent it to the rails app which ran it against multiple API's like YouTube, Ted Talks, Wikipedia, NYTimes and Freebase, gathered the search results and formatted it into one nice little package for users to review later. One of our team mates even made an interactive node graph in raphaelJS
 
 ##Post DBC
 
@@ -53,7 +53,7 @@ After DBC, I took a much needed break. Visited some friends and loved ones I hav
 
 ##Present day
 
-Currently I'm working freelance for friends and recommendations from friends. I am currently building a Starbucks-like platform for a friend called [The Daily Grind](https://daily-grind-demo.herokuapp.com/) and looking for full time work somewhere. 
+Currently I'm working freelance for friends and recommendations from friends. I am currently building a Starbucks-like [app](https://daily-grind-demo.herokuapp.com/) for a friend and looking for full time work somewhere. 
 
 In my free time, I'm solving interview-cake algorithms, going over some computer science concepts and learning as many new things as I can. 
 
