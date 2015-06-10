@@ -5,3 +5,37 @@ comments: true
 date: 2015-06-09 10:02:55 -0400
 ---
 
+My journey to becoming a developer was a long and unsupportive path. I remember thinking about becoming a software developer at 11 years old and boy did my father look upset. The next day, his graphic designer friend came by to talk me out of this struggling market. He wanted me to be a lawyer, a doctor, a real estate agent.
+
+##My path down computer hardware
+
+While I admit I was easily swayed from my path, I still had a big love for gaming. I didn't have a lot of money but I knew I could get games on the internet for free. I begged my parents for a computer and I ended up with this terrible e-machine computer, it would have to suffice. For two years I played some low-end games and emulators, but couldn't get it to play some of the high-end games. 
+
+One day I asked santa for a "beast" computer with all the highest specs, best screen, mouse, keyboard, etc. but was quickly turned down by my mother who informed me that santa had a $300 limit. I looked to the internet for cheap alternatives. I found that I could purchase computer parts seperately, so I did. I bought a kick-ass video card and ram upgrade and I was in business! It wasn't the best computer in the world, but it was a good alternative. 
+
+My friend came by and was impressed with my computer. He asked me to build him a computer and that was my first break into the freelance market.
+
+##Hardware freelancing
+
+I started small and only worked through recommendations, but I eventually found I was making $100-$200 profit from each computer I built. I got myself a better PC and more games than most of my friends. I did this for about 4 years while working part time jobs and high-school.
+
+One day, I did a job for a bail bondsman who had me doing maintenance on all his computers, upgrading the hardware, setting up his entertainment system, etc. He ran up quite a bill and I was getting very excited. He was a joy to work for and would feed me and give me beers. 
+
+By the end of all my work, I did the math and gave him the total. His reply, "I fed you and gave you beer. You have no proof that you did any of these services for me. Get out." I was crushed. At the age of 20, I gave up on hardware.
+
+##Are you too old to be a developer?
+
+Around 24, I was playing Final Fantasy XI on a private server that was hosted by a group of C++ programmers. I became friends with a few of them and I was impressed by all the "powers" they had in the game. With a few lines of code, they granted themselves whatever they wanted. I was impressed and jealous that I had given up on my dream of becoming a developer. I knew my best friends brother was a dev, so I plotted to speak with him and learn my path.
+
+The day of my friends birthday, I spoke with her brother and asked how I could "get into computers". This was the wrong question to ask, but I didn't know that at the time. He asked what I wanted to do. What do I want to do? "I want to make games!". He told me that there are devs all over the world that started programming when they were 11. He continued that I could start, but I'll never be as good as them and that it was a pointless path to take.
+
+He explained that building a game is like making a building. You have the devs, the graphic designers, the musicians, the story writers, managers, marketers, CEO and so on. When you're making a building, you have electricians, plumbers, painters, sheetrock, insolation, project managers, funders, etc. "Richard, you are the guy in the white hat". This was a defeat in my eyes that it was too late to ever realize my dream. I gave up.
+
+##developer Bootcamps
+
+I mentioned before in my blog that I used to tinker with custom roms on android and XDA-developers was my playground. One day while visiting XDA, I came across this article that changed my life titled [Are you too old to become a developer?](http://www.xda-developers.com/too-old-to-become-a-developer-xda-developer-tv/). This title really hit home for me and I was compelled to read it. I learned about hack-reactor, which was admittedly too expensive for me. I learned that the founder had graduated from a bootcamp himself called Dev-Bootcamp (DBC). I made plans to quit my job and move to CA when news came out that DBC was opening in NY, the stars all aligned and I applied for the 2nd cohort in NY.
+
+I spoke with a guy named Tanner for my acceptance interview. He was really kind and empathetic. He gave me a puzzle to solve, which I failed to answer in time. I was a little crushed but hid my emotions and graciously thanked him for his time. I e-mailed him the correct answer within the next 20 minutes and left it to fate. The next week I got an acceptance letter and I literally squeeled with joy. I was going to make my dream come true!
+
+##Dev Bootcamp
+
