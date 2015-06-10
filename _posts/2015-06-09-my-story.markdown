@@ -1,0 +1,7 @@
+---
+layout: post
+title: "How I became a developer"
+comments: true
+date: 2015-06-09 10:02:55 -0400
+---
+
