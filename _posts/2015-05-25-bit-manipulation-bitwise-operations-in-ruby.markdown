@@ -153,7 +153,7 @@ As for negatives
 It's a bit confusing to look at for a moment, but if you stop to think about it, it actually makes a lot of sense.
 
 
-##  Left and right shift operators
+## Left and right shift operators
 
 Left and right shift operators shift integer bits to the left or right by the given number of positions.
 
