@@ -14,7 +14,7 @@ So today I decided to learn about bit manipulation. I only learned about them to
 20.to_s(2) #=> "10100"
 {% endhighlight%}
 
-As shown above, you can convert an integer to a string of binary using the [Fixnum#to_s](http://ruby-doc.org/core-2.1.0/Fixnum.html#method-i-to_s) method.  
+As shown above, you can convert an integer to a string of binary using the [Fixnum#to_s](http://ruby-doc.org/core-2.1.0/Fixnum.html#method-i-to_s) method.
 
 For the sake of convenience, we're gonna make a new method for the Integer class
 
@@ -32,7 +32,7 @@ a.bits    #=> "10100"
 
 In case this confused you, we're just adding a method to the Integer class in Ruby. Cool? Cool, moving on!
 
-##AND & OR operators
+## AND & OR operators
 
 Lets quickly go over AND & OR operators. In binary, ```1``` represents ```true``` and ```0``` represents ```false```
 
@@ -50,7 +50,7 @@ false || false  #=> false
 
 This will be important as we move forward. You do not need to be a Ruby guru to learn bit manipulation, but if these didn't make sense, I recommend going on [Code Academy](www.codecademy.com) and taking the ruby course or simply opening ```irb``` and coming back since this will be pretty important moving forward.
 
-##AND operator &
+## AND operator &
 
 The AND operater enumerates through the binary and returns values where both integers are equal to  ```1``` at both indexes. If they don't match, they will be set to ```0```
 
@@ -59,11 +59,11 @@ The AND operater enumerates through the binary and returns values where both int
 (b = 17).bits   #=> "10001"
 (a & b).bits    #=> "10000"
 
-# index 0 was the only index where the value was 1 for both arguments 
+# index 0 was the only index where the value was 1 for both arguments
 # thus everything else was set to 0, returning 10000
 {% endhighlight%}
 
-##OR operator |
+## OR operator |
 
 The OR operater enumerates through the binary and returns values where _either_ integers are equal to  ```1``` at that index. They will set to ```0``` only if both are 0
 
@@ -76,7 +76,7 @@ The OR operater enumerates through the binary and returns values where _either_ 
 # they returned true and resulted in "10101"
 {% endhighlight%}
 
-##The XOR operator ^
+## The XOR operator ^
 
 The XOR operator will specifically take the value where values do not match, return ```true``` and set that value to 1. It will also omit any leading 0's in the process
 
@@ -94,9 +94,9 @@ The XOR operator will specifically take the value where values do not match, ret
 #we now have 00101, it will omit the leading 0's and return "101"
 {% endhighlight%}
 
-##The NOT operator ~
+## The NOT operator ~
 
-The NOT operator flips 
+The NOT operator flips
 
 {% highlight ruby %}
 (a=17).bits #=> "10001"
@@ -111,7 +111,7 @@ Alright, so that's not working like we expected... It's literally just prependin
 "-" + 17.bits   #=> "-10001"
 {% endhighlight%}
 
-Here are some examples of positive and negative integers and their binary:  
+Here are some examples of positive and negative integers and their binary:
 
 |binary -|- decimal|
 |:---------|-------:|
@@ -124,7 +124,7 @@ Here are some examples of positive and negative integers and their binary:
 |```1101```|```-3```|
 |```1000```|```-8```|
 
-So it looks like our ```#to_s(2)``` method isn't going to work here. We'll have to figure something else out.  
+So it looks like our ```#to_s(2)``` method isn't going to work here. We'll have to figure something else out.
 
 While it's true that represent negative numbers for human readable integers, the is impossible in computer land. There is an alternative however.
 
@@ -150,12 +150,12 @@ As for negatives
 - ```1101``` - ```-3```
 - ```1000``` - ```-8```
 
-It's a bit confusing to look at for a moment, but if you stop to think about it, it actually makes a lot of sense. 
+It's a bit confusing to look at for a moment, but if you stop to think about it, it actually makes a lot of sense.
 
 
 ## Left and right shift operators
 
-Left and right shift operators shift integer bits to the left or right by the given number of positions. 
+Left and right shift operators shift integer bits to the left or right by the given number of positions.
 
 {% highlight ruby %}
 a = 18
@@ -169,11 +169,11 @@ a = 18
 
 Notice what's happening here? By shifting to the right, we shorten the bits. By shifting left, we extend the bits, filling the new bits with ```0```'s.
 
-##That's it!
+## That's it!
 
-I learned this pretty quickly and decided to write a post about it same day. If you have any questions or feedback, please [email me](mailto:rjny86@gmail.com). 
+I learned this pretty quickly and decided to write a post about it same day. If you have any questions or feedback, please [email me](mailto:rjny86@gmail.com).
 
-##References
-- [How to Count, Programming for mere mortals by Steven Frank](http://www.amazon.com/Count-Programming-Mere-Mortals-Book-ebook/dp/B005DPIKPE).  
-- I learned all the oporators from [Calle Erlandsson's Ruby bitwise operators](http://www.amazon.com/Count-Programming-Mere-Mortals-Book-ebook/dp/B005DPIKPE). 
+## References
+- [How to Count, Programming for mere mortals by Steven Frank](http://www.amazon.com/Count-Programming-Mere-Mortals-Book-ebook/dp/B005DPIKPE).
+- I learned all the oporators from [Calle Erlandsson's Ruby bitwise operators](http://www.amazon.com/Count-Programming-Mere-Mortals-Book-ebook/dp/B005DPIKPE).
 - Thanks to stack overflow for a [simplified explenation of two's complement](http://stackoverflow.com/questions/1049722/what-is-2s-complement)

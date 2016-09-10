@@ -7,7 +7,7 @@ date: 2014-05-11 22:56:21 -0400
 
 I've enrolled in Dev Bootcamp to help accelerate my learning. Week 1 was all about ruby algorithms. This involved converting roman numerals to Arabic, creating chess boards, boggle and building an app that solves sudoku. After week 1 at DBC you will never look at sudoku the same way again. I forgot to mention the different search methods (dictionary, linear, binary, etc.), nested arrays, regex drills, and good ol' ruby racer. Ruby racer was actually a lot of fun. And don't get me started on the 7 books we had to read. **spoiler alert**: POODR is the most important read (Practical Object-Oriented Design in Ruby)
 
-##Ruby Racer
+## Ruby Racer
 
 {% highlight ruby %}
 require_relative 'racer_utils'
@@ -110,7 +110,7 @@ end
 {% endhighlight %}
 Week 2 consists of recursion, ARGV basics, benchmarking, OOD, TDD, team projects and SQL.
 
-###Fibonacci example:
+### Fibonacci example:
 {% highlight ruby %}
 def is_fibonacci?(i, num0 = 0, num1 = 1)
     if i == num0 || i == num0 + num1
@@ -124,7 +124,7 @@ end
 
 week 3 is more SQL, OO, TDD. This is also the week they introduce ActiveRecord and Sinatra. Perhaps this doesn't sound like much... but believe me it is.
 
-####What now?
+#### What now?
 So Now that I begin again tomorrow, I have the opportunity to learn it all again! Onward and upward!
 ---
 ![Why doesn't this work?](http://memeblender.com/wp-content/uploads/2013/05/As-a-programmer.jpg)

@@ -7,20 +7,20 @@ date: 2015-05-11 23:35:21 -0400
 
 I'm just gonna say it... Interviewing for a dev position sucks! It is the most humbling, brain racking experience I've ever been through. Alas, it is a natural process for getting hired. Lately, I've been on a LOT of interviews and got a LOT of rejections. Rejection sucks sure, but I always ask for feedback. Here is what I learned:
 
-##KNOW THY COMPLEXITIES
+## KNOW THY COMPLEXITIES
 Every once in a while, you go on an interview for a company that you L-O-V-E. Butterflies in your stomach, right culture, great atmosphere, refreshments. You make it to the last interview and get all the answers right. Your interviewer says "OK, this works! ...**can we do better?**" and you're thinking "wtf do you mean better? Does he mean cleaner? Is it not readable?". Interview ends, you go home, next week you get an email saying you've been rejected. What happened?
 
-##BIG O
+## BIG O
 When I first heard about this in school, I thought about the [anime on adult swim](https://www.youtube.com/watch?v=s7_Od9CmTu0). I didn't appreciate the significance of this topic until I began interviewing. So what is Big-O?
 
-Big-O is used to communicate the performance of an algorithm. For example. 
+Big-O is used to communicate the performance of an algorithm. For example.
 
 {% highlight ruby %}
-macias_family = ["Richard", "Christina", "Mary", "Stephano", "Giovanni"] 
+macias_family = ["Richard", "Christina", "Mary", "Stephano", "Giovanni"]
 macias_family[0] #=> "Richard"
 {% endhighlight %}
 
-Accessing the 0th value of the family array takes O(1) time (oh-of-one). What this means is that it will always take, worst case, one operation to complete this action/algorithm. Makes sense? Moving onward!  
+Accessing the 0th value of the family array takes O(1) time (oh-of-one). What this means is that it will always take, worst case, one operation to complete this action/algorithm. Makes sense? Moving onward!
 
 Say I want an algorithm that will print out all the names of any family:
 
@@ -58,7 +58,7 @@ We're iterating through two arrays: the ```family_tree``` array and every array 
 
 ...Is something I was told by my mentor recently after complaining that I was submitting working code, but wasn't getting the job. Here's why.
 
-##Get greedy
+## Get greedy
 
 Remember that thing I was talking about? Big-O? Yeah, my complexities sucked. This is why it's good to use better data structures. A binary search tree is a good example
 
@@ -77,12 +77,12 @@ def value_exists? argument
     return true if value == argument
 
     current_value = value
-    while value != nil 
+    while value != nil
         return true if current_value == agument
 
         if agument < value
             current_value = right.value
-        elseif agument 
+        elseif agument
             current_value = left.value
         end
     end
@@ -90,16 +90,16 @@ def value_exists? argument
 end
 {% endhighlight %}
 
-So in this example, we're traversing the binary search tree until we find a match or bust in the process. This is great because if we had a sorted array, it'd be ```[16,25,41,42,46,53,55,60,62,63,64,65,70,74]```. if We were to run ```value_exists?(74)``` we would get it on the 2nd try, vs the linear search which would literally give us the worst result.  
+So in this example, we're traversing the binary search tree until we find a match or bust in the process. This is great because if we had a sorted array, it'd be ```[16,25,41,42,46,53,55,60,62,63,64,65,70,74]```. if We were to run ```value_exists?(74)``` we would get it on the 2nd try, vs the linear search which would literally give us the worst result.
 
-##Crushing it!
+## Crushing it!
 
-That's all I got for now. I wanted to include some JavaScript interview problems and solutions (scope, closures, etc.), but I think it's best I save it for another post as well since I'm gonna go pretty in depth. I'm trying my best to crush it, I hope you will too!  
+That's all I got for now. I wanted to include some JavaScript interview problems and solutions (scope, closures, etc.), but I think it's best I save it for another post as well since I'm gonna go pretty in depth. I'm trying my best to crush it, I hope you will too!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CcS-zlgj4ak" frameborder="0" allowfullscreen></iframe>
 
-##References  
+## References
 
-*  You can learn more about Big-O with the [Big-O cheat sheet](http://bigocheatsheet.com/).  
-*  [Cracking the Coding Interview](http://amzn.com/098478280X) is THE book to buy for interviews. Seriously a must-have.  
+*  You can learn more about Big-O with the [Big-O cheat sheet](http://bigocheatsheet.com/).
+*  [Cracking the Coding Interview](http://amzn.com/098478280X) is THE book to buy for interviews. Seriously a must-have.
 *  I'm also a big fan of [interview cake](https://www.interviewcake.com/).
