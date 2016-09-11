@@ -52,7 +52,7 @@ extended_family(family_tree) #=> O(n^2) operation (oh-of-n-squared)
 
 Starting to see the pattern here?
 
-We're iterating through two arrays: the ```family_tree``` array and every array inside it. Thus, O(n^2).
+We're iterating through two arrays: the `family_tree` array and every array inside it. Thus, O(n^2).
 
 #Your algorithms suck!
 
@@ -90,7 +90,7 @@ def value_exists? argument
 end
 ```
 
-So in this example, we're traversing the binary search tree until we find a match or bust in the process. This is great because if we had a sorted array, it'd be ```[16,25,41,42,46,53,55,60,62,63,64,65,70,74]```. if We were to run ```value_exists?(74)``` we would get it on the 2nd try, vs the linear search which would literally give us the worst result.
+So in this example, we're traversing the binary search tree until we find a match or bust in the process. This is great because if we had a sorted array, it'd be `[16,25,41,42,46,53,55,60,62,63,64,65,70,74]`. if We were to run `value_exists?(74)` we would get it on the 2nd try, vs the linear search which would literally give us the worst result.
 
 ## Crushing it!
 
