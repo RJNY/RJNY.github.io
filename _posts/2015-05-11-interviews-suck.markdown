@@ -15,17 +15,17 @@ When I first heard about this in school, I thought about the [anime on adult swi
 
 Big-O is used to communicate the performance of an algorithm. For example.
 
-{% highlight ruby %}
+``` ruby
 macias_family = ["Richard", "Christina", "Mary", "Stephano", "Giovanni"]
 macias_family[0] #=> "Richard"
-{% endhighlight %}
+```
 
 Accessing the 0th value of the family array takes O(1) time (oh-of-one). What this means is that it will always take, worst case, one operation to complete this action/algorithm. Makes sense? Moving onward!
 
 Say I want an algorithm that will print out all the names of any family:
 
 
-{% highlight ruby %}
+``` ruby
 def meet_the_family(family)
     family.each do |member|
         puts member
@@ -33,11 +33,11 @@ def meet_the_family(family)
 end
 
 meet_the_family(macias_family) #=> O(n) operation
-{% endhighlight %}
+```
 
 This operation will process the length of the array which is a length of 5; however,we would not say O(5), we'd say O(n). If the array is a length of 2 or 100000, We'll still call it O(n) because we are measuring by the worst case.
 
-{% highlight ruby %}
+``` ruby
 family_tree = [["jack", "jill"], ["Angelina", "Brad"], ["foo", "bar"]]
 family_tree << macias_family
 
@@ -48,7 +48,7 @@ def extended_family (large_family)
 end
 
 extended_family(family_tree) #=> O(n^2) operation (oh-of-n-squared)
-{% endhighlight %}
+```
 
 Starting to see the pattern here?
 
@@ -70,7 +70,7 @@ The wonderful thing about the binary search tree is the Big-O complexity. Given 
 
 In a linear search, worst case wouldbe O(n), we've simplified our search to O(log n). The best way I can describe O(log n), is dividing a problem in half, over and over until you find the value you are looking for. This continuously halves your search complexity as opposed to going through each iteration.
 
-{% highlight ruby %}
+``` ruby
 # PSEUDO CODE #
 binary_tree = [{value: 60, left: {value:41 left:{Obj} right:{Obj}}, right:{value: 74, left:{Obj}, right:{Obj}}}]
 def value_exists? argument
@@ -88,15 +88,13 @@ def value_exists? argument
     end
     return false
 end
-{% endhighlight %}
+```
 
 So in this example, we're traversing the binary search tree until we find a match or bust in the process. This is great because if we had a sorted array, it'd be ```[16,25,41,42,46,53,55,60,62,63,64,65,70,74]```. if We were to run ```value_exists?(74)``` we would get it on the 2nd try, vs the linear search which would literally give us the worst result.
 
 ## Crushing it!
 
 That's all I got for now. I wanted to include some JavaScript interview problems and solutions (scope, closures, etc.), but I think it's best I save it for another post as well since I'm gonna go pretty in depth. I'm trying my best to crush it, I hope you will too!
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CcS-zlgj4ak" frameborder="0" allowfullscreen></iframe>
 
 ## References
 

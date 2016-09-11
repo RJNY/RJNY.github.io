@@ -9,7 +9,7 @@ I've enrolled in Dev Bootcamp to help accelerate my learning. Week 1 was all abo
 
 ## Ruby Racer
 
-{% highlight ruby %}
+``` ruby
 require_relative 'racer_utils'
 
 class RubyRacer
@@ -72,10 +72,10 @@ puts "Player '#{game.winner}' has won!"
 
 
 
-{% endhighlight %}
+```
 ## die.rb
 
-{% highlight ruby %}
+``` ruby
 class Die
   def initialize(sides = 6)
     @sides = sides
@@ -107,11 +107,11 @@ def flush!
   $stdout.flush
 end
 
-{% endhighlight %}
+```
 Week 2 consists of recursion, ARGV basics, benchmarking, OOD, TDD, team projects and SQL.
 
 ### Fibonacci example:
-{% highlight ruby %}
+``` ruby
 def is_fibonacci?(i, num0 = 0, num1 = 1)
     if i == num0 || i == num0 + num1
         return true
@@ -120,7 +120,7 @@ def is_fibonacci?(i, num0 = 0, num1 = 1)
     end
     is_fibonacci?(i, num1, num0 + num1)
 end
-{% endhighlight %}
+```
 
 week 3 is more SQL, OO, TDD. This is also the week they introduce ActiveRecord and Sinatra. Perhaps this doesn't sound like much... but believe me it is.
 

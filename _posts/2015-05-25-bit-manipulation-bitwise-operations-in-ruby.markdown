@@ -8,17 +8,17 @@ date: 2015-05-30 23:35:21 -0400
 So today I decided to learn about bit manipulation. I only learned about them today so i'll be keeping it super simple [K.I.S.S.](http://en.wikipedia.org/wiki/KISS_principle). Lets start with setting up our playground for learning.
 
 
-{% highlight ruby %}
+``` ruby
 1.to_s(2)  #=> "1"
 2.to_s(2)  #=> "01"
 20.to_s(2) #=> "10100"
-{% endhighlight%}
+```
 
 As shown above, you can convert an integer to a string of binary using the [Fixnum#to_s](http://ruby-doc.org/core-2.1.0/Fixnum.html#method-i-to_s) method.
 
 For the sake of convenience, we're gonna make a new method for the Integer class
 
-{% highlight ruby %}
+``` ruby
 class Integer
     def bits
         self.to_s(2)
@@ -28,7 +28,7 @@ end
 a = 20
 a.to_s(2) #=> "10100"
 a.bits    #=> "10100"
-{% endhighlight%}
+```
 
 In case this confused you, we're just adding a method to the Integer class in Ruby. Cool? Cool, moving on!
 
@@ -36,7 +36,7 @@ In case this confused you, we're just adding a method to the Integer class in Ru
 
 Lets quickly go over AND & OR operators. In binary, ```1``` represents ```true``` and ```0``` represents ```false```
 
-{% highlight ruby %}
+``` ruby
 true && true    #=> true
 true && false   #=> false
 false && true   #=> false
@@ -46,7 +46,7 @@ true || true    #=> true
 true || false   #=> true
 false || true   #=> true
 false || false  #=> false
-{% endhighlight%}
+```
 
 This will be important as we move forward. You do not need to be a Ruby guru to learn bit manipulation, but if these didn't make sense, I recommend going on [Code Academy](www.codecademy.com) and taking the ruby course or simply opening ```irb``` and coming back since this will be pretty important moving forward.
 
@@ -54,33 +54,33 @@ This will be important as we move forward. You do not need to be a Ruby guru to 
 
 The AND operater enumerates through the binary and returns values where both integers are equal to  ```1``` at both indexes. If they don't match, they will be set to ```0```
 
-{% highlight ruby %}
+``` ruby
 (a = 20).bits   #=> "10100"
 (b = 17).bits   #=> "10001"
 (a & b).bits    #=> "10000"
 
 # index 0 was the only index where the value was 1 for both arguments
 # thus everything else was set to 0, returning 10000
-{% endhighlight%}
+```
 
 ## OR operator |
 
 The OR operater enumerates through the binary and returns values where _either_ integers are equal to  ```1``` at that index. They will set to ```0``` only if both are 0
 
-{% highlight ruby %}
+``` ruby
 (a = 20).bits   #=> "10100"
 (b = 17).bits   #=> "10001"
 (a | b).bits    #=> "10101"
 
 # index 0, 2 and 4 all had values of 1 in either comparisons
 # they returned true and resulted in "10101"
-{% endhighlight%}
+```
 
 ## The XOR operator ^
 
 The XOR operator will specifically take the value where values do not match, return ```true``` and set that value to 1. It will also omit any leading 0's in the process
 
-{% highlight ruby %}
+``` ruby
 (a = 20).bits   #=> "10100"
 (b = 17).bits   #=> "10001"
 (a ^ b).bits    #=> "101"
@@ -92,24 +92,24 @@ The XOR operator will specifically take the value where values do not match, ret
 #index 4: same as index(2), registers true, sets it to one
 #
 #we now have 00101, it will omit the leading 0's and return "101"
-{% endhighlight%}
+```
 
 ## The NOT operator ~
 
 The NOT operator flips
 
-{% highlight ruby %}
+``` ruby
 (a=17).bits #=> "10001"
 ~a          #=> -18
 (~a).bits   #=> "-10001"
-{% endhighlight%}
+```
 
 Alright, so that's not working like we expected... It's literally just prepending a ```-``` into the string
 
-{% highlight ruby %}
+``` ruby
 -17.bits        #=> "-10001"
 "-" + 17.bits   #=> "-10001"
-{% endhighlight%}
+```
 
 Here are some examples of positive and negative integers and their binary:
 
@@ -157,7 +157,7 @@ It's a bit confusing to look at for a moment, but if you stop to think about it,
 
 Left and right shift operators shift integer bits to the left or right by the given number of positions.
 
-{% highlight ruby %}
+``` ruby
 a = 18
 
 (a >> 2).to_s(2)       #=>     "100"
@@ -165,7 +165,7 @@ a = 18
 (a).to_s(2)            #=>   "10010"
 (a << 1).to_s(2)       #=>  "100100"
 (a << 2).to_s(2)       #=> "1001000"
-{% endhighlight %}
+```
 
 Notice what's happening here? By shifting to the right, we shorten the bits. By shifting left, we extend the bits, filling the new bits with ```0```'s.
 
