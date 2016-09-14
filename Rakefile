@@ -9,7 +9,9 @@ CONFIG = {
   'themes' => File.join(SOURCE, "_includes", "themes"),
   'layouts' => File.join(SOURCE, "_layouts"),
   'posts' => File.join(SOURCE, "_posts"),
+  'drafts' => File.join(SOURCE, "_drafts"),
   'post_ext' => "md",
+  'draft_ext' => "md",
   'theme_package_version' => "0.1.0"
 }
 
@@ -22,7 +24,8 @@ module JB
       :themes => "_includes/themes",
       :theme_assets => "assets/themes",
       :theme_packages => "_theme_packages",
-      :posts => "_posts"
+      :posts => "_posts",
+      :drafts => "_drafts"
     }
 
     def self.base
@@ -72,6 +75,38 @@ task :post do
     # post.puts "{% include JB/setup %}"
   end
 end # task :post
+
+desc "Begin a new draft in #{CONFIG['drafts']}"
+task :draft do
+  abort("rake aborted: '#{CONFIG['drafts']}' directory not found.") unless FileTest.directory?(CONFIG['drafts'])
+  title = ENV["title"] || "new-draft"
+  tags = ENV["tags"] || "[]"
+  category = ENV["category"] || ""
+  category = "\"#{category.gsub(/-/,' ')}\"" if !category.empty?
+  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  begin
+    date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
+  rescue => e
+    puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
+    exit -1
+  end
+  filename = File.join(CONFIG['drafts'], "#{date}-#{slug}.#{CONFIG['draft_ext']}")
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+
+  puts "Creating new draft: #{filename}"
+  open(filename, 'w') do |draft|
+    draft.puts "---"
+    draft.puts "layout: post"
+    draft.puts "title: \"#{title.gsub(/-/,' ')}\""
+    draft.puts 'description: ""'
+    draft.puts "category: #{category}"
+    draft.puts "tags: #{tags}"
+    draft.puts "---"
+    # draft.puts "{% include JB/setup %}"
+  end
+end # task :draft
 
 # Usage: rake page name="about.html"
 # You can also specify a sub-directory path.
