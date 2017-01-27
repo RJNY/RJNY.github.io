@@ -1,0 +1,13 @@
+.projects {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-preview {
+  display: block;
+  height: 420px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
