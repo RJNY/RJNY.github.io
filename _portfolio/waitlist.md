@@ -2,7 +2,10 @@
 layout: project
 title: Waitlist
 image_path: /assets/img/waitlist.png
-short-description: Waitlist is a good app
+short-description: Real-Time Waitlist Application
+project-url: https://kara-oke.firebaseapp.com/#/
+code-url:
+tech:
 ---
 
 {% include project_header.html %}
