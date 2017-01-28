@@ -14,7 +14,9 @@ baseurl: ""
 author-bio: "Software Developer, Teacher, Gamer, Musician, technology enthusiast."
 
 # Gems
-gems: [jekyll-paginate, jekyll-gist]
+gems:
+  - jekyll-paginate
+  - jekyll-gist
 
 # Social Accounts (mine, as placeholders)
 

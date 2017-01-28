@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: project
 title: Waitlist
-image_path: http://www.placehold.it/500x500
+image_path: /assets/img/waitlist.png
 short-description: Waitlist is a good app
 ---
 
-Something is wrong with these kids!
+{% include project_header.html %}

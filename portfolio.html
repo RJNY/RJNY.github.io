@@ -3,18 +3,19 @@ layout: default
 title: Portfolio
 ---
 
-<h1>Portfolio</h1>
-
-<div class="projects">
-  {% for project in site.portfolio limit:30 %}
-    <div class="project-container">
-      <div class="image-container">
-        <div class="project-preview" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-          url({{ project.image_path}}) ">
-          <a href="{{ project.url }}">{{ project.title }}</a>
-          <p>{{ project.short-description }}</p>
-        </div>
-      </div>
-    </div>
-  {% endfor %}
+<div id="home">
+  <ul class="posts">
+    {% for project in site.portfolio limit: 30 %}
+    <li itemscope itemtype="http://schema.org/BlogPosting">
+      <a href="{{ project.url }}" itemprop="url">
+	<div class="project-wrap">
+	  <p itemprop="name headline">{{ project.title }}</p>
+          <br>
+          <p class="description">{{ project.short-description }}</p>
+	</div>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
+

@@ -1,13 +1,38 @@
-.projects {
-  display: flex;
-  flex-direction: row;
-}
-
-.project-preview {
+.project-banner {
+  border-radius: 10px;
   display: block;
-  height: 420px;
-  background-position: 50% 50%;
+  width: 100%;
+  height: 200px;
+  background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
+  @media screen and (min-width: 600px) {
+    height: 250px;
+  }
 }
 
+.project-container {
+  width: 100%;
+  max-width: 1000px;
+  @media screen and (min-width: 600px) {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}

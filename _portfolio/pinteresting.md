@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Pinteresting
-image_path: http://www.placehold.it/500x500
+image_path: /assets/img/pinteresting.png
 short-description: Pinteresting is a good app
 ---
 
-Something is wrong with these kids!
+{% include project_header.html %}
 

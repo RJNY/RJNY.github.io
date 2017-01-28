@@ -1,8 +1,9 @@
-footer { 
+footer {
   @extend %padding-large;
+  clear: both;
   width: 100%;
   bottom: 0;
   left: 0;
-  text-align: center; 
+  text-align: center;
   small { text-transform: uppercase; }
 }

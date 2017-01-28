@@ -1,9 +1,9 @@
 ---
 layout: default
 title: PINCHme
-image_path: http://www.placehold.it/500x500
+image_path: /assets/img/pinchme.png
 short-description: PINCHme is a good app
 ---
 
-Something is wrong with these kids!
+{% include project_header.html %}
 
