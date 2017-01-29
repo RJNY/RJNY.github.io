@@ -52,3 +52,5 @@ sass:
 collections:
   portfolio:
     output: true
+  algos:
+    output: true

@@ -6,7 +6,7 @@ category: / blog
 
 <div id="home">
   <ul class="posts">
-    {% assign posts = site.posts | sort: 'date' | reverse %}
+    {% assign posts = paginator.posts | sort: 'date' | reverse %}
     {% for post in posts %}
     <li itemscope itemtype="http://schema.org/BlogPosting">
       <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">

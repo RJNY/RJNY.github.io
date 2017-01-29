@@ -1,0 +1,25 @@
+---
+layout: default
+title: Algorithms
+category: / algorithms
+---
+
+<div id="home">
+  <ul class="posts">
+    {% assign algos = site.algos | sort: 'date' | reverse %}
+    {% for algo in algos %}
+    <li itemscope itemtype="http://schema.org/BlogPosting">
+      <a href="{{ site.baseurl }}{{ algo.url }}" itemprop="url">
+        <div class="p-wrap">
+          <time datetime="{{ algo.date | date_to_xmlschema }}"
+              itemprop="datePublished">
+            {{ algo.date | date_to_string }}
+          </time>
+          <p itemprop="name headline">{{ algo.title }}</p>
+        </div>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
