@@ -1,11 +1,14 @@
-<div class="project-container">
-  <h1>{{page.title}}</h1>
-  <div class="project-banner" style="background-image: url({{ page.image_path }}); "></div>
-  <div class="tech-used">
+<div class="project-banner" style="background-image: url({{ page.image_path }}); "></div>
+<div class="overview">
+  <div class="short-description half">
+    <h3> Summary </h3>
+    <p> {{ page.short-description }} </p>
+  </div>
+  <div class="skills half">
     <h3>Tech Used</h3>
     <ul>
       {% for tech in page.tech %}
-        <li>{{tech}}</li>
+      <li>{{tech}}</li>
       {% endfor %}
     </ul>
   </div>

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title: Richly
 image_path: /assets/img/richly.png
 short-description: Link Aggrigator
@@ -8,5 +8,4 @@ code-url:
 tech:
 ---
 
-{% include project_header.html %}
 

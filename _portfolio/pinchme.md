@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title: PINCHme
 image_path: /assets/img/pinchme.png
 short-description: Get Free Samples for your Feedback
@@ -8,5 +8,4 @@ code-url:
 tech:
 ---
 
-{% include project_header.html %}
 

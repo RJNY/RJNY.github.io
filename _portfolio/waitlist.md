@@ -8,4 +8,3 @@ code-url:
 tech:
 ---
 
-{% include project_header.html %}
