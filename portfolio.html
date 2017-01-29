@@ -6,13 +6,14 @@ category: / projects
 
 <div id="home">
   <ul class="posts">
-    {% for project in site.portfolio limit: 30 %}
+    {% assign items = site.portfolio | sort: 'date' | reverse %}
+    {% for item in items %}
     <li itemscope itemtype="http://schema.org/BlogPosting">
-      <a href="{{ project.url }}" itemprop="url">
-	<div class="project-wrap">
-	  <p itemprop="name headline">{{ project.title }}</p>
+      <a href="{{ item.url }}" itemprop="url">
+	<div class="item-wrap">
+	  <p itemprop="name headline">{{ item.title }}</p>
           <br>
-          <p class="description">{{ project.short-description }}</p>
+          <p class="description">{{ item.short-description }}</p>
 	</div>
       </a>
     </li>

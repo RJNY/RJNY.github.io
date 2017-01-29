@@ -6,7 +6,8 @@ category: / blog
 
 <div id="home">
   <ul class="posts">
-    {% for post in paginator.posts %}
+    {% assign posts = site.posts | sort: 'date' | reverse %}
+    {% for post in posts %}
     <li itemscope itemtype="http://schema.org/BlogPosting">
       <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">
         <div class="p-wrap">
