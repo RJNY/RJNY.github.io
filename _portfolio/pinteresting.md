@@ -7,7 +7,7 @@ short-description: Pin interesting things on the internet
 summary: Pinteresting is a Pinterest clone.
 project-url: https://rj-pinteresting.herokuapp.com/
 code-url:
-tech:
+tech: [Ruby on Rails, PostgreSQL, Heroku, Bootstrap, HAML, Paperclip, Devise, Masonary]
 ---
 
 
