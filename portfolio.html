@@ -10,11 +10,11 @@ category: / projects
     {% for project in items %}
     <li itemscope itemtype="http://schema.org/BlogPosting">
       <a href="{{ project.url }}" itemprop="url">
-	<div class="project-wrap">
-	  <p itemprop="name headline">{{ project.title }}</p>
+        <div class="project-wrap">
+          <p itemprop="name headline">{{ project.title }}</p>
           <br>
           <p class="description">{{ project.short-description }}</p>
-	</div>
+        </div>
       </a>
     </li>
     {% endfor %}
