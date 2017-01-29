@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Richly
-date: 2014-12-14 23:35:21 -0400
+date: 2014-12-14
 image_path: /assets/img/richly.png
 short-description: Link Aggrigator
 summary: Richly is a link aggregator site, like Reddit or Hacker News.
