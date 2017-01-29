@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Pinteresting
-date: 2014-12-11 23:35:21 -0400
+date: 2014-12-28 23:35:21 -0400
 image_path: /assets/img/pinteresting.png
 short-description: Pin interesting things on the internet
 summary: Pinteresting is a Pinterest clone.
