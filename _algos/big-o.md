@@ -1,7 +1,7 @@
 ---
 layout: algo
 title: Big O Notation
-date: 2014-12-07
+date: 2014-11-07
 ---
 
 ## What is The Big-O?
