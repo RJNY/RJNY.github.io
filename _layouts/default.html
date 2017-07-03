@@ -40,17 +40,14 @@
       <nav>
         <h6>Follow me on</h6>
         <ul>
-          {% if site.twitter %}
-          <li><a target="_blank" href="http://twitter.com/{{ site.twitter }}">Twitter</a></li>
-          {% endif %}
           {% if site.github %}
           <li><a target="_blank" href="http://github.com/{{ site.github }}">Github</a></li>
           {% endif %}
           {% if site.linkedin %}
           <li><a target="_blank" href="http://linkedin.com/in/{{ site.linkedin }}/en">LinkedIn</a></li>
           {% endif %}
-          {% if site.gplus %}
-          <li><a target="_blank" href="https://plus.google.com/+{{ site.gplus }}">Google+</a></li>
+          {% if site.twitter %}
+          <li><a target="_blank" href="http://twitter.com/{{ site.twitter }}">Twitter</a></li>
           {% endif %}
         </ul>
       </nav>
