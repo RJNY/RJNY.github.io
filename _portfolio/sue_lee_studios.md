@@ -9,5 +9,3 @@ project-url: http://sueleestudios.com
 tech: [Ruby on Rails, PostgreSQL, Masonry, Selectize]
 ---
 
-
-
