@@ -16,7 +16,7 @@ never replace my macbook since I can't do any web development on my iPad, right?
 ## Blink
 
 I checked out the app store for some terminal apps. They were all pretty lack-luster from my past
-experiences with iOS/Android terminals. Surprisingly enough, one stood out with exceptional reviews,
+experiences with iOS and Android terminals. Surprisingly enough, one stood out with exceptional reviews,
 [Blink](https://itunes.apple.com/us/app/blink-shell-mosh-ssh-terminal/id1156707581?mt=8).
 
 Basically, this is a terminal app that allows you to SSH or Mosh into another machine, and it
@@ -34,7 +34,7 @@ totally works!
 
 ## Setup
 
-### SSH/Mosh using host configuration
+### SSH using host configuration
 
 Open up Blink, type config to enter the settings.
 
@@ -53,7 +53,7 @@ Mosh
 
 ![image]({{site.url}}/assets/img/blink-settings.png)
 
-### SSH/Mosh manually
+### SSH manually
 
 you can simply SSH into your machine by typing `ssh obiwan@192.168.x.x`
 or Mosh into it with `mosh obiwan@192.168.x.x --server=/usr/local/bin/mosh-server`
@@ -63,7 +63,7 @@ If you installed it via homebrew like I did, the path will be something like `/u
 
 ex: `mosh obiwan@192.168.x.x --server=/usr/local/bin/mosh-server`
 
-## SSH/Mosh into your machine
+## SSH into your machine
 
 Assuming you followed the above setup, you should not be able to `ssh [host]` or `mosh [host]`.
 
@@ -81,6 +81,25 @@ performance. I could honestly see myself developing using an iPad, comfortably.
 
 ![image]({{site.url}}/assets/img/ipad-setup.png)
 
+## Running the web server
+
+If you simply try running `rails serve`, you're gonna have a bad time. This is because your iPad
+cannot connect to your VPS's localhost. you're gonna have to tell rails, node, etc. what ip to serve
+to explicitly.
+
+Rails ex:
+``` bash
+rails serve -b 192.168.x.x -p 3000
+```
+
+Node ex:
+``` bash
+HOST=192.168.x.x PORT=3000 webpack-dev-server
+```
+
+Once the server is spinning, you just need to visit `http://192.168.x.x:3000` instead of localhost
+
+
 ## Drawbacks
 
 The biggest drawback, and the deal breaker, is that there are no good browser developer tools
@@ -91,17 +110,34 @@ console rarely works and this is where my journey ended.
 
 ## Conclusion
 
-The iPad has definitely become a contender in the realm of professional tools. I believe that this
-could be the machine that most professionals use for their day-to-day tasks. You'll find many
-YouTube videos of how the iPad helps business professionals, music producers and artists alike, so
-I'll spare you the details of how amazing the iPad is for the day-to-day, mundane.
+**So is it good for web development?** _Not yet._
 
-So is it good for web development? _Not yet._
+The lack of a native web inspector is a critical missing component. Your only options are the buggy
+firebug bookmarklet or connect to a laptop via usb for the web inspector, which defeats the entire
+purpose of development on an iPad in the first place.
 
-The lack of a native web inspector is a critical missing component. There is also the need to always
-be connected to the internet for a SSH/Mosh connection.
+There is also the need to always be connected to the internet for a SSH connection. If you lose
+internet connection, you're stranded with very limited options of resolution.
+
+Another surprising thing that bugged me is the lack of mouse or trackpad support on the iPad. While it
+is a joy to touch the screen for many of my tasks, the need to touch the screen for web development
+sucks all the joy out of this magical experience.
+
+**Is it for me?** _Not yet_
+
+Simply put, the only thing the iPad has going for it over the macbook is it's form-factor, touch
+screen and LTE option. There is nothing I can't already do on a macbook that I can't do on an iPad
+(except touch the screen apparently).
+
+I will be returning my iPad Pro 10.5". The iPad has definitely become a contender in the realm of
+professional tools. I believe that this could be the machine that most professionals use for their
+day-to-day tasks. You'll find many YouTube videos of how the iPad helps business professionals,
+music producers and artists alike, so I'll spare you the details of how amazing the iPad is for the
+day-to-day, mundane.
 
 That aside, I love the idea of carrying an iPad instead of my 15" MacBook Pro. I even thought about
 trading it in for the LTE version so I could have access to my VPN from anywhere and not be reliant
-of slow public WiFi connections. I am looking forward to the day where the iPad is a full laptop
-replacement, but today is not that day. Happy hacking!
+of slow public WiFi connections.
+
+I am looking forward to the day where the iPad is a full laptop replacement, but today is not that
+day. Happy hacking!
