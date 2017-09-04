@@ -7,12 +7,13 @@ layout: default
     <div class="feat">
       <h5 class="page-date">
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-          {{ page.date | date_to_long_string }}
+          {{ page.date | date: "%B %d %Y" }}
         </time>
       </h5>
     </div>
     <h1 class="page-title" itemprop="name headline">{{ page.title }}</h1>
     <div itemprop="articleBody">
+      {% include youtubePlayer.html id=page.youtubeId %}
       {{ content }}
     </div>
     <div class="feat share">

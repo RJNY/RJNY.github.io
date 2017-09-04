@@ -13,7 +13,7 @@ category: / blog
         <div class="p-wrap">
           <time datetime="{{ post.date | date_to_xmlschema }}"
               itemprop="datePublished">
-            {{ post.date | date_to_string }}
+            {{ post.date | date: "%b %d %Y" }}
           </time>
           <p itemprop="name headline">{{ post.title }}</p>
         </div>

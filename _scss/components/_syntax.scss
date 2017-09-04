@@ -1,7 +1,7 @@
 // Solarized Light Pygments CSS / Jekyll
 // https://gist.github.com/edwardhotchkiss/2005058
 
-.highlight { 
+.highlight {
   border: 1px solid $border-color;
   border-radius: 3px;
   padding: $spacing-s $spacing-s;
@@ -11,13 +11,13 @@
   overflow: scroll;
   color: lighten($text-color, 30%);
 }
- 
+
 code {
   font-family: 'Courier', monospace;
   font-size: 100%;
   line-height: 1.5;
 }
- 
+
 .highlight .c { color: #586E75 } /* Comment */
 .highlight .err { color: #93A1A1 } /* Error */
 .highlight .g { color: #93A1A1 } /* Generic */
