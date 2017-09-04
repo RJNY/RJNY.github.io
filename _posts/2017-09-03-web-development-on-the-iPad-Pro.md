@@ -34,7 +34,7 @@ totally works!
 
 ## Setup
 
-### Automatic
+### SSH/Mosh using host configuration
 
 Open up Blink, type config to enter the settings.
 
@@ -53,7 +53,7 @@ Mosh
 
 ![image]({{site.url}}/assets/img/blink-settings.png)
 
-### Manually
+### SSH/Mosh manually
 
 you can simply SSH into your machine by typing `ssh obiwan@192.168.x.x`
 or Mosh into it with `mosh obiwan@192.168.x.x --server=/usr/local/bin/mosh-server`

@@ -1,21 +1,33 @@
 // Solarized Light Pygments CSS / Jekyll
 // https://gist.github.com/edwardhotchkiss/2005058
 
-.highlight {
+// .highlight {
+//   border: 1px solid $border-color;
+//   border-radius: 3px;
+//   padding: $spacing-s $spacing-s;
+//   background-color: $smoke-color;
+//   font-size: 80%;
+//   margin: $spacing-m auto;
+//   overflow: scroll;
+//   color: lighten($text-color, 30%);
+// }
+
+.highlighter-rouge {
   border: 1px solid $border-color;
-  border-radius: 3px;
-  padding: $spacing-s $spacing-s;
+  border-radius: 1px;
+  padding: 5px;
   background-color: $smoke-color;
-  font-size: 80%;
-  margin: $spacing-m auto;
-  overflow: scroll;
-  color: lighten($text-color, 30%);
+  font-size: 75%;
+  color: lighten($text-color, 15%);
 }
 
 code {
-  font-family: 'Courier', monospace;
-  font-size: 100%;
-  line-height: 1.5;
+  font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+}
+
+p code {
+  padding: 1px 5px;
+  white-space: no-wrap;
 }
 
 .highlight .c { color: #586E75 } /* Comment */
