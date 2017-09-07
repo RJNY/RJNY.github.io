@@ -83,13 +83,13 @@ performance. I could honestly see myself developing using an iPad, comfortably.
 
 ## Running the web server
 
-If you simply try running `rails serve`, you're gonna have a bad time. This is because your iPad
+If you simply try running `rails server`, you're gonna have a bad time. This is because your iPad
 cannot connect to your VPS's localhost. you're gonna have to tell rails, node, etc. what ip to serve
 to explicitly.
 
 Rails ex:
 ``` bash
-rails serve -b 192.168.x.x -p 3000
+rails server -b 192.168.x.x -p 3000
 ```
 
 Node ex:
