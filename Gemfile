@@ -4,3 +4,4 @@ gem 'jekyll', '~> 3.5.0'
 gem 'jekyll-paginate', group: :jekyll_plugins
 gem 'pygments.rb'
 gem 'jekyll-gist'
+gem 'github-pages', group: :jekyll_plugins

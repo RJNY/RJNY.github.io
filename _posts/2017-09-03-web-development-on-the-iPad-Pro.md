@@ -142,4 +142,4 @@ of slow public WiFi connections.
 I am looking forward to the day where the iPad is a full laptop replacement, but today is not that
 day. Happy hacking!
 
-edit: typo fixes
+_edit: typo fixes_
