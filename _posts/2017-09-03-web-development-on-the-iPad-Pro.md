@@ -27,7 +27,7 @@ totally works!
 - an iPad (any iPad _should_ do)
 - a bluetooth or iPad keyboard
 - [Blink](https://itunes.apple.com/us/app/blink-shell-mosh-ssh-terminal/id1156707581?mt=8).
-- A PC, Mac or a [VPN](https://www.digitalocean.com/pricing/) (requires additional setup)
+- A PC, Mac or a [VPS](https://www.digitalocean.com/pricing/) (requires additional setup)
 - Bash & Vim know-how. I believe there are pretty good text editors that'll work, but I didn't need
   them so I wouldn't be the person to ask)
 - (optional) [install mosh](https://mosh.org/#getting) on the machine you're SSH-ing into
@@ -136,7 +136,7 @@ music producers and artists alike, so I'll spare you the details of how amazing 
 day-to-day, mundane.
 
 That aside, I love the idea of carrying an iPad instead of my 15" MacBook Pro. I even thought about
-trading it in for the LTE version so I could have access to my VPN from anywhere and not be reliant
+trading it in for the LTE version so I could have access to my VPS from anywhere and not be reliant
 of slow public WiFi connections.
 
 I am looking forward to the day where the iPad is a full laptop replacement, but today is not that
